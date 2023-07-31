@@ -1,0 +1,25 @@
+.resume {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.resume-section {
+  position: relative !important;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+  background-color: #272727;
+}
+
+.download-button {
+  background-color: black !important;
+  border-color: black !important;
+
+}
+
+.download-button:hover, .download-button:active {
+  background-color: rgb(43, 42, 42) !important;
+  border-color: rgb(43, 42, 42) !important;
+}
