@@ -32,10 +32,9 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Teaching Assistant
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          <p className="vertical-timeline-element-subtitle">
             Remote
-          </h4>
-          <p></p>
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -67,6 +66,9 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Remote
           </h4>
+          <h6>
+            JavaScript, CSS, LESS, BootStrap, Postgress, Tomcat, Servoy, Jira, Confluence, GitHub
+          </h6>
           <p>Contributed to the continuous development of Enterprise Resource Planning software, catering to a
 diverse client base of over 20+ organizations. Resulted in significant improvements in efficiency and
 streamlined processes</p>
