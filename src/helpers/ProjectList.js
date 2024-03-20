@@ -3,6 +3,7 @@ import Proj2 from "../assets/project2.png";
 import Proj3 from "../assets/project3.png";
 import Proj4 from "../assets/project4.jpg";
 import Proj5 from "../assets/project5.PNG";
+import Proj6 from "../assets/project6.png";
 
 
 export const ProjectList = [
@@ -35,5 +36,11 @@ export const ProjectList = [
     image: Proj5,
     skills: "JavaScript,HTML,CSS, ReactJS",
     github: "https://github.com/kevinhuang19/Portfolio",
+  },
+  {
+    name: "Movie Browser",
+    image: Proj6,
+    skills: "ReactJS, HTML, CSS, material UI, Bootstrap, C#, .NET, MVC",
+    github: "https://github.com/kevinhuang19/MovieClient-FrontEnd"
   },
 ];

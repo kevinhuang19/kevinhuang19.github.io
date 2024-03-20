@@ -56,7 +56,7 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="Feb 2023 - Present"
+          date="Feb 2023 - Sept 2023"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -72,6 +72,22 @@ function Experience() {
           <p>Contributed to the continuous development of Enterprise Resource Planning software, catering to a
 diverse client base of over 20+ organizations. Resulted in significant improvements in efficiency and
 streamlined processes</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Feb 2024 - Present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}>
+          <h3 className="vertical-timeline-element-title">
+            Frontend Developer Itern - Vosyn.ai
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Remote
+          </h4>
+          <h6>
+            ReactJS, HTML, CSS, JavaScript, Git
+          </h6>
+          <p>Contributed to AI Startup working on Login/Onboarding team</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
