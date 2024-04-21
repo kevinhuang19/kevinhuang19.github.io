@@ -79,7 +79,7 @@ streamlined processes</p>
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}>
           <h3 className="vertical-timeline-element-title">
-            Frontend Developer Itern - Vosyn.ai
+            Frontend Developer Intern - Vosyn.ai
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Remote
