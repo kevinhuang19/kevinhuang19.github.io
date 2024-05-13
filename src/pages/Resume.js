@@ -1,6 +1,6 @@
 import React, { useState, useEffect}from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
-import pdf from '../assets/resume4.pdf';
+import pdf from '../assets/resume5.pdf';
 import { Container, Row} from "react-bootstrap";
 import '../styles/Resume.css';
 import Button from "react-bootstrap/Button";
