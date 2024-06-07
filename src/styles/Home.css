@@ -26,10 +26,12 @@
 .about .prompt {
   width: 40%;
   font-size: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .prompt svg {
-  font-size: 60px;
+  font-size: 40px;
   margin: 5px;
   color: white;
 }
@@ -66,13 +68,6 @@
   .about h2 {
     font-size: 40px;
   }
-
-  .about .prompt {
-    margin-top: 10px;
-    font-size: 20px;
-    width: 80%;
-  }
-
   .skills {
     text-align: center;
   }
@@ -99,4 +94,97 @@
   transition: 0.3s ease-in;
   cursor: pointer;
   transform: translateY(-0.15em);
+}
+
+.skillHeader {
+  border-radius: 20px;
+  text-align: center;
+}
+
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 20px;
+}
+
+.skill-sub-container {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.skills-in-box {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-in-box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .skills-in-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+section {
+  padding-top: 4vh;
+  min-height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+}
+.section-text {
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.profile-image {
+  display: flex;
+  border-radius: 50%;
+  border: 10px solid black;
+  height: 400px;
+  width: 400px;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 5rem;
+  min-height: 65vh;
+}
+
+.section-profile-picture {
+  margin: auto 0;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-image {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #profile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .section-profile-picture {
+    display: flex;
+  }
 }
