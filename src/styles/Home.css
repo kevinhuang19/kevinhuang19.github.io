@@ -118,7 +118,6 @@
 .button:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.753);
   transition: 0.3s ease-in;
-  cursor: pointer;
   transform: translateY(-0.15em);
 }
 
@@ -138,6 +137,12 @@
   border: 1px solid black;
   border-radius: 20px;
   padding: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.skill-sub-container:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 1);
+  transition: 0.3s ease-in;
 }
 
 .skills-in-box {
